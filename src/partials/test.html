@@ -1,11 +1,17 @@
 <div class="container">
-  <h1 class="main-title">виберіть дату народження</h1>
-  <form id="usersRequest">
-    <label for="startDate">від:</label>
-    <input id="startDate" type="date" name="startDate" />
-    <label for="endDate">до:</label>
-    <input id="endDate" type="date" name="endDate" />
-    <button type="submit">оновити</button>
-  </form>
+  <div class="form-container">
+    <h1 class="main-title">виберіть дату народження</h1>
+    <form id="usersRequest" class="form">
+      <div class="input-block">
+        <label for="startDate" class="input-label">від:</label>
+        <input id="startDate" type="date" name="startDate" class="date-input" />
+      </div>
+      <div class="input-block">
+        <label for="endDate" class="input-label">до:</label>
+        <input id="endDate" type="date" name="endDate" class="date-input" />
+      </div>
+      <button type="submit" class="button">оновити</button>
+    </form>
+  </div>
+  <div id="data"></div>
 </div>
-<div id="data"></div>

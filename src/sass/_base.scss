@@ -30,13 +30,14 @@ ul {
 
 .container {
   max-width: 375px;
+  margin: 0 auto;
   padding: 48px 11px 29px 11px;
   @media screen and (min-width: 768px) {
     max-width: 744px;
     padding: 48px 15px 47px 15px;
   }
   @media screen and (min-width: 1280px) {
-    max-width: 864px;
+    max-width: 1440px;
     padding: 80px 80px 80px 67px;
   }
 }
